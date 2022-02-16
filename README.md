@@ -1,10 +1,5 @@
 # zap
 
-[![Run Tests](https://github.com/gin-contrib/zap/actions/workflows/go.yml/badge.svg)](https://github.com/gin-contrib/zap/actions/workflows/go.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/zap)](https://goreportcard.com/report/github.com/gin-contrib/zap)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/zap?status.svg)](https://godoc.org/github.com/gin-contrib/zap)
-[![Join the chat at https://gitter.im/gin-gonic/gin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gin-gonic/gin)
-
 Alternative logging through [zap](https://github.com/uber-go/zap). Thanks for [Pull Request](https://github.com/gin-gonic/contrib/pull/129) from [@yezooz](https://github.com/yezooz)
 
 ## Usage
@@ -14,13 +9,13 @@ Alternative logging through [zap](https://github.com/uber-go/zap). Thanks for [P
 Download and install it:
 
 ```sh
-go get github.com/gin-contrib/zap
+go get github.com/zeriontech/ginzap
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/zap"
+import "github.com/zeriontech/ginzap"
 ```
 
 ## Example
@@ -34,7 +29,7 @@ import (
   "fmt"
   "time"
 
-  ginzap "github.com/gin-contrib/zap"
+  "github.com/zeriontech/ginzap"
   "github.com/gin-gonic/gin"
   "go.uber.org/zap"
 )
